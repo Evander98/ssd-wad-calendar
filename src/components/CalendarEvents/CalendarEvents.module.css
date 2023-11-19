@@ -1,0 +1,24 @@
+.events {
+  min-height: 50px;
+  padding: 5px;
+  margin: 5px 0;
+  border-radius: 7px;
+}
+
+.events > p {
+  margin-bottom: 5px;
+}
+
+.events-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.events-header svg {
+  margin: 0 5px;
+}
+
+.events-header svg:hover {
+  color: bisque;
+  transition: all 0.2s ease-in-out;
+}

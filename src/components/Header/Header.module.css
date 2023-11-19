@@ -1,0 +1,10 @@
+.header {
+  font-size: 38px;
+  text-align: center;
+  background-color: #3498db;
+  color: #ffffff;
+}
+
+.header > b {
+  margin: 10px;
+}

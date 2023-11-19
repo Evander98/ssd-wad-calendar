@@ -1,0 +1,15 @@
+.calendar-grid,
+.days-container {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  background-color: #ecf0f1;
+}
+
+.days-container {
+  text-align: center;
+  padding: 16px 0;
+  color: #34495e;
+  font-weight: bold;
+  border: 0 solid #3498db;
+  border-bottom-width: 1px;
+}
